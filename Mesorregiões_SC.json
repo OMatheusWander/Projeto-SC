@@ -1,0 +1,71 @@
+{
+  "type": "Topology",
+  "arcs": [
+    // Dados geográficos dos polígonos de cada mesorregião e microrregião
+    [
+      [[32180, 15921], [59, 61], [-20, 45], [77, 78], [-30, 42], [52, 52], [-113, 51]],
+      // Outros dados dos poligonos geográficos aqui
+    ]
+  ],
+  "objects": {
+    "mesorregioes": {
+      "type": "GeometryCollection",
+      "geometries": [
+        {
+          "type": "Polygon",
+          "properties": {
+            "nome": "Mesorregião do Oeste Catarinense",
+            "microrregioes": [
+              {
+                "nome": "São Miguel do Oeste",
+                "municipios": [
+                  "Anchieta", "Bandeirante", "Barra Bonita", "Belmonte", "Descanso",
+                  "Dionísio Cerqueira", "Guaraciaba", "Guarujá do Sul", "Iporã do Oeste",
+                  "Itapiranga", "Mondaí", "Palma Sola", "Paraíso", "Princesa", "Riqueza",
+                  "Romelândia", "Santa Helena", "São João do Oeste", "São José do Cedro",
+                  "São Miguel do Oeste", "Tunápolis"
+                ]
+              },
+              {
+                "nome": "Chapecó",
+                "municipios": [
+                  "Águas de Chapecó", "Águas Frias", "Bom Jesus do Oeste", "Caibi", "Campo Erê",
+                  "Caxambu do Sul", "Chapecó", "Cordilheira Alta", "Coronel Freitas", "Cunha Porã",
+                  "Cunhataí", "Flor do Sertão", "Formosa do Sul", "Guatambu", "Iraceminha", "Irati",
+                  "Jardinópolis", "Maravilha", "Modelo", "Nova Erechim", "Nova Itaberaba", "Novo Horizonte",
+                  "Palmitos", "Pinhalzinho", "Planalto Alegre", "Quilombo", "Saltinho", "Santa Terezinha do Progresso",
+                  "Santiago do Sul", "São Bernardino", "São Carlos", "São Lourenço do Oeste", "São Miguel da Boa Vista",
+                  "Saudades", "Serra Alta", "Sul Brasil", "Tigrinhos", "União do Oeste"
+                ]
+              }
+            ]
+          },
+          "arcs": [0, 1, 2, 3, 4]  // Referência aos arcs para geolocalização
+        },
+        {
+          "type": "Polygon",
+          "properties": {
+            "nome": "Mesorregião do Norte Catarinense",
+            "microrregioes": [
+              {
+                "nome": "Canoinhas",
+                "municipios": [
+                  "Bela Vista do Toldo", "Canoinhas", "Irineópolis", "Itaiópolis", "Mafra", "Major Vieira",
+                  "Monte Castelo", "Papanduva", "Porto União", "Santa Terezinha", "Timbó Grande", "Três Barras"
+                ]
+              },
+              {
+                "nome": "Joinville",
+                "municipios": [
+                  "Araquari", "Balneário Barra do Sul", "Corupá", "Garuva", "Guaramirim", "Itapoá", "Jaraguá do Sul",
+                  "Joinville", "Massaranduba", "São Francisco do Sul", "Schroeder"
+                ]
+              }
+            ]
+          },
+          "arcs": [5, 6, 7, 8, 9]
+        }
+      ]
+    }
+  }
+}
