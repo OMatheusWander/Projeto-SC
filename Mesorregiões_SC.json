@@ -38,7 +38,7 @@
               }
             ]
           },
-          "arcs": [0, 1, 2, 3, 4]  // Referência aos arcs para geolocalização
+          "arcs": [0, 1, 2, 3, 4] 
         },
         {
           "type": "Polygon",
