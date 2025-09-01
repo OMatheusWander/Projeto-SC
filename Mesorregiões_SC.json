@@ -1,10 +1,8 @@
 {
   "type": "Topology",
   "arcs": [
-    // Dados geográficos dos polígonos de cada mesorregião e microrregião
     [
       [[32180, 15921], [59, 61], [-20, 45], [77, 78], [-30, 42], [52, 52], [-113, 51]],
-      // Outros dados dos poligonos geográficos aqui
     ]
   ],
   "objects": {
